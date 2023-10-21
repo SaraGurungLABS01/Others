@@ -25,7 +25,7 @@
 
 - Select the key pair file format:
     - If using SSH clients like OpenSSH, choose "PEM."
-    - If using PuTTY on Windows, choose "PPK."
+  
 
 **Step 7: Create Key Pair**
 
@@ -43,5 +43,3 @@
 - Losing the private key file may lead to loss of access to your AWS instances.
 
 With the key pair created and the private key file saved, you are ready to use it for SSH access to your AWS EC2 instances. When launching an EC2 instance, you can associate this key pair with the instance to enable secure SSH access using the private key file.
-
-Remember to follow AWS best practices for key pair management and security to maintain the confidentiality and integrity of your AWS resources.
